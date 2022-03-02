@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://www.hantools.top</id>
+    <title>HanTools</title>
+    <updated>2022-03-02T03:12:32.668Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://www.hantools.top"/>
+    <link rel="self" href="https://www.hantools.top/atom.xml"/>
+    <subtitle>知其然更要知其所以然</subtitle>
+    <logo>https://www.hantools.top/images/avatar.png</logo>
+    <icon>https://www.hantools.top/favicon.ico</icon>
+    <rights>All rights reserved 2022, HanTools</rights>
+</feed>
