@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://www.hantools.top</id>
     <title>HanTools</title>
-    <updated>2022-03-08T11:50:50.925Z</updated>
+    <updated>2022-03-16T02:34:39.818Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://www.hantools.top"/>
     <link rel="self" href="https://www.hantools.top/atom.xml"/>
@@ -10,4 +10,14 @@
     <logo>https://www.hantools.top/images/avatar.png</logo>
     <icon>https://www.hantools.top/favicon.ico</icon>
     <rights>All rights reserved 2022, HanTools</rights>
+    <entry>
+        <title type="html"><![CDATA[瞎做的直播间]]></title>
+        <id>https://www.hantools.top/post/xia-zuo-de-zhi-bo-jian/</id>
+        <link href="https://www.hantools.top/post/xia-zuo-de-zhi-bo-jian/">
+        </link>
+        <updated>2022-03-16T02:31:13.000Z</updated>
+        <content type="html"><![CDATA[<p><a href="http://101.42.94.97:18000/share.html?id=vdavgFPng&amp;type=live">直播间地址</a><br>
+无意义，瞎做的，后续可能会换个框架，纯好玩</p>
+]]></content>
+    </entry>
 </feed>
