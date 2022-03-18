@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://www.hantools.top</id>
     <title>HanTools</title>
-    <updated>2022-03-18T06:42:57.999Z</updated>
+    <updated>2022-03-18T06:44:51.500Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://www.hantools.top"/>
     <link rel="self" href="https://www.hantools.top/atom.xml"/>
@@ -16,7 +16,8 @@
         <link href="https://www.hantools.top/post/cong-0-kai-shi-da-jian-yi-ge-wang-zhan-di-san-pian-zhi-huan-jing-da-jian/">
         </link>
         <updated>2022-03-18T06:34:32.000Z</updated>
-        <content type="html"><![CDATA[<p>这篇文章很短，我开头就不废话了，直接上链接</p>
+        <content type="html"><![CDATA[<p>这篇文章很短，我开头就不废话了，直接上链接<br>
+两个东西选择自己的版本之后下载安装，安装时无脑下一步即可</p>
 <h1 id="gridea">Gridea</h1>
 <p><a href="https://gridea.dev/">Gridea 官网</a><br>
 <a href="https://gridea.dev/#started">Gridea 官网最新多版本下载</a><br>
