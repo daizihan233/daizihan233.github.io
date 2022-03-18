@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://www.hantools.top</id>
     <title>HanTools</title>
-    <updated>2022-03-18T05:20:22.625Z</updated>
+    <updated>2022-03-18T05:23:10.732Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://www.hantools.top"/>
     <link rel="self" href="https://www.hantools.top/atom.xml"/>
@@ -27,7 +27,7 @@
 # 平台的选择
 现在最受欢迎的有以下几个平台
 1. GitHub Pages
-2. Coding Pages
+2. ~~Coding Pages~~（已弃用）
 3. Gitee Pages
 4. 自己动手，丰衣足食（自己搭建）
 ## 如何选择？
@@ -40,8 +40,9 @@
 比如**个人**博客，比如你现在看的这个网站
 ##### 动态网页
 比如**哔哩哔哩**，所有用户都可以上传作品
-### Coding Pages
-可大大提高国内的速度，但是收费的，看看得了
+### ~~Coding Pages~~（已弃用）
+~~可大大提高国内的速度，但是收费的，看看得了~~
+别看了，已经关停了，沙*tx（危险发言）
 ### Gitee Pages
 需要备案，需要身份证正反面以及手持身份证照片，国内速度更快
 ### 自己动手，丰衣足食（自己搭建）
