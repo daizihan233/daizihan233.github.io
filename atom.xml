@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://www.hantools.top</id>
     <title>HanTools</title>
-    <updated>2022-03-18T07:01:48.355Z</updated>
+    <updated>2022-03-18T11:21:48.908Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://www.hantools.top"/>
     <link rel="self" href="https://www.hantools.top/atom.xml"/>
@@ -10,6 +10,81 @@
     <logo>https://www.hantools.top/images/avatar.png</logo>
     <icon>https://www.hantools.top/favicon.ico</icon>
     <rights>All rights reserved 2022, HanTools</rights>
+    <entry>
+        <title type="html"><![CDATA[从0开始搭建一个网站 第五章之——尾声]]></title>
+        <id>https://www.hantools.top/post/cong-0-kai-shi-da-jian-yi-ge-wang-zhan-di-wu-zhang-zhi-wei-sheng/</id>
+        <link href="https://www.hantools.top/post/cong-0-kai-shi-da-jian-yi-ge-wang-zhan-di-wu-zhang-zhi-wei-sheng/">
+        </link>
+        <updated>2022-03-18T10:17:25.000Z</updated>
+        <content type="html"><![CDATA[<p>终于最后一章啦！<br>
+↓ 来个久违的音乐吧</p>
+<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=1341867946&auto=0&height=66"></iframe>
+<h1 id="购买域名当然你也可以选择不买">购买域名（当然你也可以选择不买）</h1>
+<p>这活还用说嘛....<br>
+注册个腾讯云账号，<s>国内的东西注册你总会吧</s><br>
+打开<a href="https://buy.cloud.tencent.com/domain?from=console">这个</a><br>
+<img src="https://www.hantools.top/post-images/1647599295802.png" alt="" loading="lazy"><br>
+<strong>注意：请先准备好身份证正反面图片</strong><br>
+买完之后打开<a href="https://console.cloud.tencent.com/domain">这个</a>，点解析<br>
+<img src="https://www.hantools.top/post-images/1647599740787.png" alt="" loading="lazy"></p>
+<h1 id="github-pages的配置">GitHub Pages的配置</h1>
+<p><img src="https://www.hantools.top/post-images/1647598958888.png" alt="" loading="lazy"><br>
+（记得点Save）<br>
+<img src="https://www.hantools.top/post-images/1647599090784.png" alt="" loading="lazy"><br>
+不废话了，直接放图</p>
+<p>好了，全部更完了 😃</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[从0开始搭建一个网站 第四章之——Gridea的使用以及配置]]></title>
+        <id>https://www.hantools.top/post/cong-0-kai-shi-da-jian-yi-ge-wang-zhan-di-si-zhang-zhi-gridea-de-shi-yong-yi-ji-pei-zhi/</id>
+        <link href="https://www.hantools.top/post/cong-0-kai-shi-da-jian-yi-ge-wang-zhan-di-si-zhang-zhi-gridea-de-shi-yong-yi-ji-pei-zhi/">
+        </link>
+        <updated>2022-03-18T09:48:33.000Z</updated>
+        <summary type="html"><![CDATA[<p><img src="https://www.hantools.top/post-images/1647596973857.png" alt="" loading="lazy"><br>
+打开软件啥也别管，直奔这里<br>
+<img src="https://www.hantools.top/post-images/1647597157530.png" alt="" loading="lazy"><br>
+然后按照这个调<br>
+平台不动<br>
+域名写“用户名.github.io”或者写你买的域名（如何买域名和配置域名会在最后一章讲到）<br>
+分支填写这个地方的文字：<br>
+<img src="https://www.hantools.top/post-images/1647597592546.png" alt="" loading="lazy"><br>
+仓库用户名就是这里：<br>
+<img src="https://www.hantools.top/post-images/1647597776180.png" alt="" loading="lazy"><br>
+邮箱就是你注册GitHub时用的邮箱<br>
+令牌这样获得：<br>
+打开这个网页：<a href="https://github.com/settings/tokens/new">GitHub令牌生成</a><br>
+<img src="https://www.hantools.top/post-images/1647598302469.png" alt="" loading="lazy"><br>
+最后点击“Generate token”<br>
+然后会出现一个ghp_开头的东西，一定要赶紧复制！因为一旦关闭网页就找不着了！<br>
+这个东西就是令牌<br>
+CNAME就是你买的域名，如果没有就留空</p>
+<h1 id="认识gridea">认识Gridea</h1>
+]]></summary>
+        <content type="html"><![CDATA[<p><img src="https://www.hantools.top/post-images/1647596973857.png" alt="" loading="lazy"><br>
+打开软件啥也别管，直奔这里<br>
+<img src="https://www.hantools.top/post-images/1647597157530.png" alt="" loading="lazy"><br>
+然后按照这个调<br>
+平台不动<br>
+域名写“用户名.github.io”或者写你买的域名（如何买域名和配置域名会在最后一章讲到）<br>
+分支填写这个地方的文字：<br>
+<img src="https://www.hantools.top/post-images/1647597592546.png" alt="" loading="lazy"><br>
+仓库用户名就是这里：<br>
+<img src="https://www.hantools.top/post-images/1647597776180.png" alt="" loading="lazy"><br>
+邮箱就是你注册GitHub时用的邮箱<br>
+令牌这样获得：<br>
+打开这个网页：<a href="https://github.com/settings/tokens/new">GitHub令牌生成</a><br>
+<img src="https://www.hantools.top/post-images/1647598302469.png" alt="" loading="lazy"><br>
+最后点击“Generate token”<br>
+然后会出现一个ghp_开头的东西，一定要赶紧复制！因为一旦关闭网页就找不着了！<br>
+这个东西就是令牌<br>
+CNAME就是你买的域名，如果没有就留空</p>
+<h1 id="认识gridea">认识Gridea</h1>
+<!-- more -->
+<p><img src="https://www.hantools.top/post-images/1647598577212.png" alt="" loading="lazy"><br>
+界面就是长这样，后续会发Gridea的详细教程，软件使用方法很简单，自己摸索也能学会</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[从0开始搭建一个网站 第三章之——环境搭建]]></title>
         <id>https://www.hantools.top/post/cong-0-kai-shi-da-jian-yi-ge-wang-zhan-di-san-pian-zhi-huan-jing-da-jian/</id>
@@ -54,6 +129,7 @@
 点击 <strong>Recent Repositories</strong>旁边的<strong>New</strong>按钮，<br>
 <img src="https://www.hantools.top/post-images/1647584385523.png" alt="" loading="lazy"><br>
 一定要按这个格式，要不然就去买个域名<br>
+<strong>注意：图上有点问题，“Add a README file”一定要勾上！！！</strong><br>
 因为如果不按这个格式比如：hantools.github.io，但我的名字是daizihan233，如果想访问的话就必须写https://daizihan233.github.io/hantools.github.io<br>
 但如果非得这样就需要买域名来解决了，<s>当然你也可以选择改名</s><br>
 然后就没了</p>
