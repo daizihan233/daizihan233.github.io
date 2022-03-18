@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://www.hantools.top</id>
     <title>HanTools</title>
-    <updated>2022-03-16T04:20:39.157Z</updated>
+    <updated>2022-03-18T03:36:09.855Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://www.hantools.top"/>
     <link rel="self" href="https://www.hantools.top/atom.xml"/>
@@ -10,4 +10,50 @@
     <logo>https://www.hantools.top/images/avatar.png</logo>
     <icon>https://www.hantools.top/favicon.ico</icon>
     <rights>All rights reserved 2022, HanTools</rights>
+    <entry>
+        <title type="html"><![CDATA[从0开始搭建一个网站 第一章之——选型篇]]></title>
+        <id>https://www.hantools.top/post/cong-0-kai-shi-da-jian-yi-ge-wang-zhan-di-yi-zhang-zhi-xuan-xing-pian/</id>
+        <link href="https://www.hantools.top/post/cong-0-kai-shi-da-jian-yi-ge-wang-zhan-di-yi-zhang-zhi-xuan-xing-pian/">
+        </link>
+        <updated>2022-03-18T01:05:39.000Z</updated>
+        <content type="html"><![CDATA[<h1 id="开头">开头</h1>
+<p>读了这篇文章您将学到</p>
+<ol>
+<li>各个托管平台之间的区别</li>
+<li>什么是动（静）态网页</li>
+<li>静态网页生成器的选择<br>
+全文共 416 字，预计阅读时间 1分28秒</li>
+</ol>
+<h1 id="平台的选择">平台的选择</h1>
+<p>现在最受欢迎的有以下几个平台</p>
+<ol>
+<li>GitHub Pages</li>
+<li>Coding Pages</li>
+<li>Gitee Pages</li>
+<li>自己动手，丰衣足食（自己搭建）</li>
+</ol>
+<h2 id="如何选择">如何选择？</h2>
+<p>总结：建议选择<strong>GitHub Pages</strong></p>
+<h3 id="github-pages">GitHub Pages</h3>
+<p><strong>非常牛逼的</strong><em>静态<em><strong>网页托管平台</strong><br>
+在</em></em>未满18岁（无法备案）<strong>的前提下很好用，不用备案，自带域名</strong>（可自定义）**，但国内连接速度很慢</p>
+<h4 id="小知识什么事静态动态网页">小知识：什么事静态/动态网页？</h4>
+<h5 id="静态网页">静态网页</h5>
+<p>比如<strong>个人</strong>博客，比如你现在看的这个网站</p>
+<h5 id="动态网页">动态网页</h5>
+<p>比如<strong>哔哩哔哩</strong>，所有用户都可以上传作品</p>
+<h3 id="coding-pages">Coding Pages</h3>
+<p>可大大提高国内的速度，但是收费的，看看得了</p>
+<h3 id="gitee-pages">Gitee Pages</h3>
+<p>需要备案，需要身份证正反面以及手持身份证照片，国内速度更快</p>
+<h3 id="自己动手丰衣足食自己搭建">自己动手，丰衣足食（自己搭建）</h3>
+<p>需要注意的是，前面几个只支持静态网页，不支持动态网页，自己动手当然是个性化程度最高的方式，但也麻烦，你也不想自己一行一行写代码对吧，<s>我也不想</s></p>
+<h1 id="静态网页生成器">静态网页生成器</h1>
+<p>建议：<strong>Gridea</strong><br>
+目前我见过最好的是Gridea，<s>你没看错，确实不是<strong>WordPress</strong></s><br>
+WordPress需要数据库的支持，所以在这里我们不用他<br>
+Gridea主要是做博客的，有模板可以直接套，还可以直接上传到GitHub</p>
+<pre><code></code></pre>
+]]></content>
+    </entry>
 </feed>
