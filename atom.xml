@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://www.hantools.top</id>
     <title>HanTools</title>
-    <updated>2022-03-18T05:28:12.425Z</updated>
+    <updated>2022-03-18T06:41:28.950Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://www.hantools.top"/>
     <link rel="self" href="https://www.hantools.top/atom.xml"/>
@@ -10,6 +10,55 @@
     <logo>https://www.hantools.top/images/avatar.png</logo>
     <icon>https://www.hantools.top/favicon.ico</icon>
     <rights>All rights reserved 2022, HanTools</rights>
+    <entry>
+        <title type="html"><![CDATA[从0开始搭建一个网站 第三篇之——环境搭建]]></title>
+        <id>https://www.hantools.top/post/cong-0-kai-shi-da-jian-yi-ge-wang-zhan-di-san-pian-zhi-huan-jing-da-jian/</id>
+        <link href="https://www.hantools.top/post/cong-0-kai-shi-da-jian-yi-ge-wang-zhan-di-san-pian-zhi-huan-jing-da-jian/">
+        </link>
+        <updated>2022-03-18T06:34:32.000Z</updated>
+        <content type="html"><![CDATA[<p>这篇文章很短，我开头就不废话了，直接上链接</p>
+<h1 id="gridea">Gridea</h1>
+<p><a href="https://gridea.dev/">Gridea 官网</a><br>
+<a href="https://gridea.dev/#started">Gridea 官网最新多版本下载</a><br>
+<a href="https://github.com/getgridea/gridea/releases/download/v0.9.2/Gridea.Setup.0.9.2.exe">Gridea 官网Windows版下载 (0.9.2)</a></p>
+<h1 id="git">Git</h1>
+<p><a href="https://gridea.dev/">Git 官网</a><br>
+<a href="https://git-scm.com/downloads">Git 官网最新多版本下载</a><br>
+<a href="https://github.com/git-for-windows/git/releases/download/v2.35.1.windows.2/Git-2.35.1.2-64-bit.exe">Git 官网Windows x64版下载 (2.35.1)</a></p>
+<p>下一篇：Gridea的使用以及配置</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[从0开始搭建一个网站 第二章指——创建一个库]]></title>
+        <id>https://www.hantools.top/post/cong-0-kai-shi-da-jian-yi-ge-wang-zhan-di-er-zhang-zhi-chuang-jian-yi-ge-ku/</id>
+        <link href="https://www.hantools.top/post/cong-0-kai-shi-da-jian-yi-ge-wang-zhan-di-er-zhang-zhi-chuang-jian-yi-ge-ku/">
+        </link>
+        <updated>2022-03-18T06:09:04.000Z</updated>
+        <content type="html"><![CDATA[<p>↓ 开始之前，先放首歌放松一下吧</p>
+<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=1418788252&auto=0&height=66"></iframe>
+<h1 id="开头">开头</h1>
+<p>这篇文章将会告诉你</p>
+<ol>
+<li>如何创建一个存储库</li>
+</ol>
+<h1 id="github的注册">GitHub的注册</h1>
+<p>注册的话就很简单了，不赘述<br>
+看不懂就用翻译器翻译一下<br>
+但注意：除了这个你可以看翻译，其他一律不许！<br>
+要不然会有很多迷惑翻译</p>
+<h1 id="如何创建一个存储库">如何创建一个存储库</h1>
+<p>打开GitHub，界面应该是这样<br>
+<img src="https://www.hantools.top/post-images/1647584205344.png" alt="" loading="lazy"><br>
+跟我不一样也没关系，每个人都多少不大一样<br>
+点击 <strong>Recent Repositories</strong>旁边的<strong>New</strong>按钮，<br>
+<img src="https://www.hantools.top/post-images/1647584385523.png" alt="" loading="lazy"><br>
+一定要按这个格式，要不然就去买个域名<br>
+因为如果不按这个格式比如：hantools.github.io，但我的名字是daizihan233，如果想访问的话就必须写https://daizihan233.github.io/hantools.github.io<br>
+但如果非得这样就需要买域名来解决了，<s>当然你也可以选择改名</s><br>
+然后就没了</p>
+<p>下一篇：环境搭建</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[从0开始搭建一个网站 第一章之——选型篇]]></title>
         <id>https://www.hantools.top/post/cong-0-kai-shi-da-jian-yi-ge-wang-zhan-di-yi-zhang-zhi-xuan-xing-pian/</id>
@@ -59,6 +108,7 @@ Gridea主要是做博客的，有模板可以直接套，还可以直接上传�
 <s>我保证没有恰饭</s></p>
 <h1 id="结尾">结尾</h1>
 <p>后面会用<strong>GitHub Pages</strong>+<strong>Gridea</strong>从无到有制作一个网站</p>
+<p>下一篇：创建一个库</p>
 ]]></content>
     </entry>
 </feed>
