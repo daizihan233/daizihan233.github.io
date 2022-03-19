@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://www.hantools.top</id>
     <title>HanTools</title>
-    <updated>2022-03-18T11:21:48.908Z</updated>
+    <updated>2022-03-19T00:21:28.036Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://www.hantools.top"/>
     <link rel="self" href="https://www.hantools.top/atom.xml"/>
@@ -124,10 +124,10 @@ CNAME就是你买的域名，如果没有就留空</p>
 要不然会有很多迷惑翻译</p>
 <h1 id="如何创建一个存储库">如何创建一个存储库</h1>
 <p>打开GitHub，界面应该是这样<br>
-<img src="https://www.hantools.top/post-images/1647584205344.png" alt="" loading="lazy"><br>
+<img src="https://www.hantools.top/post-images/1647649195796.png" alt="" loading="lazy"><br>
 跟我不一样也没关系，每个人都多少不大一样<br>
 点击 <strong>Recent Repositories</strong>旁边的<strong>New</strong>按钮，<br>
-<img src="https://www.hantools.top/post-images/1647584385523.png" alt="" loading="lazy"><br>
+<img src="https://www.hantools.top/post-images/1647649244786.png" alt="" loading="lazy"><br>
 一定要按这个格式，要不然就去买个域名<br>
 <strong>注意：图上有点问题，“Add a README file”一定要勾上！！！</strong><br>
 因为如果不按这个格式比如：hantools.github.io，但我的名字是daizihan233，如果想访问的话就必须写https://daizihan233.github.io/hantools.github.io<br>
