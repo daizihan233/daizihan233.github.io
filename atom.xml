@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://www.hantools.top</id>
     <title>HanTools</title>
-    <updated>2022-05-03T13:16:44.931Z</updated>
+    <updated>2022-05-03T13:52:21.687Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://www.hantools.top"/>
     <link rel="self" href="https://www.hantools.top/atom.xml"/>
@@ -10,6 +10,27 @@
     <logo>https://www.hantools.top/images/avatar.png</logo>
     <icon>https://www.hantools.top/favicon.ico</icon>
     <rights>All rights reserved 2022, HanTools</rights>
+    <entry>
+        <title type="html"><![CDATA[啥玩意儿是 CC BY-NC-SA 知识共享协议？]]></title>
+        <id>https://www.hantools.top/post/cc-by-nc-sa/</id>
+        <link href="https://www.hantools.top/post/cc-by-nc-sa/">
+        </link>
+        <updated>2022-05-03T13:29:37.000Z</updated>
+        <content type="html"><![CDATA[<p>看见文章最下面的方框了吗？你知道 CC BY-NC-SA 是什么意思吗？</p>
+<h1 id="啥玩意儿是-cc-协议">啥玩意儿是 CC 协议？</h1>
+<p><strong>知识共享协议</strong>，不需要知道太多<br>
+这里也不涉及</p>
+<h1 id="by-是什么意思">BY 是什么意思？</h1>
+<p><strong>署名</strong> <s>，欸你说什么意思呢</s><br>
+要在某个地方写上原作者的名字</p>
+<h1 id="nc-是什么意思">NC 是什么意思？</h1>
+<p><strong>非商业性使用</strong><br>
+也就是说不可商用，不得利用这个文章赚取利润</p>
+<h1 id="sa-是什么意思">SA 是什么意思？</h1>
+<p><strong>相同方式共享</strong><br>
+比如我写的文章使用了 CC BY-NC-SA 知识共享协议，那么如果你要搬运我的文章也必须使用 CC BY-NC-SA 知识共享协议</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[从0开始搭建一个网站 第五章之——尾声]]></title>
         <id>https://www.hantools.top/post/cong-0-kai-shi-da-jian-yi-ge-wang-zhan-di-wu-zhang-zhi-wei-sheng/</id>

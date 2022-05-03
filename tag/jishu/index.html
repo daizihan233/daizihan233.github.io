@@ -1,242 +1,23 @@
 <!DOCTYPE html>
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-    <meta name="description" content="全文共 455 字，预计阅读时间 1分42秒
-开头
-读了这篇文章您将学到
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<!-- 最新版本的 Bootstrap 核心 CSS 文件 -->
+<link rel="stylesheet" href="https://www.hantools.top/media/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://www.hantools.top/media/css/live2d.css">
+<link rel="stylesheet" href="https://www.hantools.top/styles/main.css">
+<link rel="stylesheet" href="https://www.hantools.top/media/css/font-awesome.css">
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js"></script>
+<title>HanTools</title>
 
-各个托管平台之间的区别
-什么是动（静）态网页
-静态网页生成器的选择
-
-平台的选择
-现在最受欢迎的有以下几个平台
-
-GitHub Pages
-Coding Pages..." />
-    <meta name="keywords" content="Github Pages系列" />
-    <link rel="stylesheet" href="https://www.hantools.top/media/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://www.hantools.top/styles/main.css">
-    <!-- 代码渲染风格css -->
-    
-    <link rel="stylesheet" href="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.18.1/build/styles/vs2015.min.css">
-    
-    <!-- 代码高亮插件 -->
-    <script src="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.18.1/build/highlight.min.js"></script>
-    <!-- 代码复制插件 -->
-    <script src="https://cdn.jsdelivr.net/gh/850552586/ericamcdn@0.1/js/clipboard.min.js"></script>
-    <!-- live2d插件 -->
-    <link rel="stylesheet" href="https://www.hantools.top/media/css/live2d.css">
-    <script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js"></script>
-    <!-- 最新版本的 Bootstrap 核心 CSS 文件 -->
-    <link href="https://cdn.bootcdn.net/ajax/libs/font-awesome/5.13.1/css/all.min.css" rel="stylesheet">
-    <!-- 数学公式 -->
-    
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.10.0-beta/dist/katex.min.css"
-        integrity="sha384-9tPv11A+glH/on/wEu99NVwDPwkMQESOocs/ZGXPoIiLE8MU/qkqUcZ3zzL+6DuH" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/katex@0.10.0-beta/dist/katex.min.js"
-        integrity="sha384-U8Vrjwb8fuHMt6ewaCy8uqeUXv4oitYACKdB0VziCerzt011iQ/0TqlSlv8MReCm" crossorigin="anonymous">
-        </script>
-    <script src="https://cdn.jsdelivr.net/npm/katex@0.10.0-beta/dist/contrib/auto-render.min.js"
-        integrity="sha384-aGfk5kvhIq5x1x5YdvCp4upKZYnA8ckafviDpmWEKp4afOZEqOli7gqSnh8I6enH" crossorigin="anonymous">
-        </script>
-    <script>
-        renderMathInElement(document.body, {
-            delimiters: [{
-                left: "$$",
-                right: "$$",
-                display: true
-            },
-            {
-                left: "$",
-                right: "$",
-                display: false
-            }
-            ]
-        });
-    </script>
-    
-    <title>从0开始搭建一个网站 第一章之——选型篇</title>
-
-    <!-- 大纲索引css调整 -->
-    
-    <style>
-        .markdownIt-TOC {
-            margin-left: 28%;
-            padding-left: 2px;
-            width: 80%;
-        }
-
-        .markdownIt-TOC li {
-            padding-left: 8%;
-        }
-    </style>
-    
-    <script>
-        var _hmt = _hmt || [];
-        (function() {
-            var hm = document.createElement("script");
-            hm.src = "https://hm.baidu.com/hm.js?e8af6d64c7a0d9a3d95c01cad3c0c6e1";
-            var s = document.getElementsByTagName("script")[0];
-            s.parentNode.insertBefore(hm, s);
-        })();
-    </script>
-
-</head>
 
 <body>
-    <div id="landlord">
-        <div class="message" style="opacity:0"></div>
-        <canvas id="live2d" width="240" height="250" class="live2d"></canvas>
-    </div>
-    <div id="domainname" style="display:none">https://www.hantools.top</div>
+
     <div id="content">
-        <div>
-            <!----------- 移动端导航栏👇 ----------------->
-            <div id="bar">
-                <style>
-  .navmobile {
-    z-index: 15;
-    max-height: 40vh;
-    overflow-y: scroll;
-    overflow-x: hidden;
-  }
-
-  @media screen and (max-width: 1200px) {
-    .navbar {
-      max-width: 100vw;
-    }
-  }
-
-  @media screen and (max-width:1200px) and (min-width: 768px) {
-    @media (min-width: 768px) {
-      .navbar-nav {
-        float: right;
-        margin: 0;
-      }
-    }
-  }
-
-  @media screen and (max-width:768px) {
-    .mbapspan {
-      padding: 0;
-    }
-  }
-</style>
-<div class="pjaxloading"  onclick="pjaxloadingClose()">
-  <div class="loadingbackground"></div>
-  <div id="loading">
-    <div class="loading">
-    </div>
-  </div>
-</div>
-<nav class="navbar navbar-inverse navbar-fixed-top navmobile">
-  <div class="container-fluid">
-    <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#barmenu"
-        aria-expanded="false" id="barbutton">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a data-pjax class="navbar-brand" style="color:white" href="https://www.hantools.top">HanTools&nbsp;&nbsp;|</a>
-      <span class="navbar-brand mbapspan"><i id="mbaplayer" class="fa fa-play-circle-o" aria-hidden="true"
-          style="font-size: 28px;top: 12px;position: absolute;" onclick="aplayerPlay();"></i></span>
-    </div>
-
-    <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="barmenu">
-      <ul class="nav navbar-nav">
-        
-        
-        <li>
-          <a data-pjax href="/" style="color:white">
-            首页
-          </a>
-        </li>
-        
-        
-        
-        <li>
-          <a data-pjax href="/archives" style="color:white">
-            归档
-          </a>
-        </li>
-        
-        
-        
-        <li>
-          <a data-pjax href="/tags" style="color:white">
-            标签
-          </a>
-        </li>
-        
-        
-        
-        <li>
-          <a data-pjax href="/post/about" style="color:white">
-            关于
-          </a>
-        </li>
-        
-        
-        
-        <li>
-          <a data-pjax href="https://www.hantools.top/post/hei-ming-dan" style="color:white">
-            耻辱榜
-          </a>
-        </li>
-        
-        
-        
-        
-          
-        <li><a data-pjax href="https://www.hantools.top/friends" style="color:white">友链</a></li>
-
-        
-        </ul>
-      </div><!-- /.navbar-collapse -->
-    </div><!-- /.container-fluid -->
-  </nav>
-
-
-  <!-- 引入jQuery核心js文件 -->
-  <script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js"></script>
-  <script>
-    let btstate = false;
-    var bt = $("#barbutton");
-    var bm = $("#barmenu");
-    bt.click(function () {
-      dropdown();
-    })
-    function dropdown() {
-      console.log(btstate);
-      //下拉
-      if (btstate == false) {
-        bt.removeClass("collapsed");
-        bt.attr("aria-expanded", "true");
-        bm.attr("aria-expanded", "true")
-        bm.fadeIn(700);
-        btstate = true;
-      }
-      else {
-        bt.addClass("collapsed");
-        bt.attr("aria-expanded", "false");
-        bm.removeClass("in");
-        bm.hide();
-        bm.attr("aria-expanded", "false");
-        btstate = false;
-      }
-    }
-  </script> 
-            </div>
-            <!----------- 移动端导航栏👆 ----------------->
-
-            <!--------------- pc端菜单栏👇 ---------------->
-            <div class="side"><head>
+        <div class="nav-large">
+            <div class="row">
+                <!--------------- pc端菜单栏👇 ---------------->
+                <div class="side"><head>
     <link rel="stylesheet" href="https://www.hantools.top/media/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://www.hantools.top/styles/main.css">
     
@@ -1146,253 +927,261 @@ menulist.eq(i).show();
     }
 </script>
 <!----夜间模式👆--></div>
-            <!--------------- pc端菜单栏👆 ---------------->
+                <!--------------- pc端菜单栏👆 ---------------->
 
-            <!-- ----------------左侧菜单栏html 👇-------------------------------------->
-            
-            <div>
-                <div id="tab1" class="tab">
-                    <div class="bars">
-                        <span></span>
-                        <span></span>
-                        <span></span>
+                <!----------- 移动端导航栏👇 ----------------->
+                <div class="tbar"> <style>
+  .navmobile {
+    z-index: 15;
+    max-height: 40vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
+  }
+
+  @media screen and (max-width: 1200px) {
+    .navbar {
+      max-width: 100vw;
+    }
+  }
+
+  @media screen and (max-width:1200px) and (min-width: 768px) {
+    @media (min-width: 768px) {
+      .navbar-nav {
+        float: right;
+        margin: 0;
+      }
+    }
+  }
+
+  @media screen and (max-width:768px) {
+    .mbapspan {
+      padding: 0;
+    }
+  }
+</style>
+<div class="pjaxloading"  onclick="pjaxloadingClose()">
+  <div class="loadingbackground"></div>
+  <div id="loading">
+    <div class="loading">
+    </div>
+  </div>
+</div>
+<nav class="navbar navbar-inverse navbar-fixed-top navmobile">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#barmenu"
+        aria-expanded="false" id="barbutton">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a data-pjax class="navbar-brand" style="color:white" href="https://www.hantools.top">HanTools&nbsp;&nbsp;|</a>
+      <span class="navbar-brand mbapspan"><i id="mbaplayer" class="fa fa-play-circle-o" aria-hidden="true"
+          style="font-size: 28px;top: 12px;position: absolute;" onclick="aplayerPlay();"></i></span>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="barmenu">
+      <ul class="nav navbar-nav">
+        
+        
+        <li>
+          <a data-pjax href="/" style="color:white">
+            首页
+          </a>
+        </li>
+        
+        
+        
+        <li>
+          <a data-pjax href="/archives" style="color:white">
+            归档
+          </a>
+        </li>
+        
+        
+        
+        <li>
+          <a data-pjax href="/tags" style="color:white">
+            标签
+          </a>
+        </li>
+        
+        
+        
+        <li>
+          <a data-pjax href="/post/about" style="color:white">
+            关于
+          </a>
+        </li>
+        
+        
+        
+        <li>
+          <a data-pjax href="https://www.hantools.top/post/hei-ming-dan" style="color:white">
+            耻辱榜
+          </a>
+        </li>
+        
+        
+        
+        
+          
+        <li><a data-pjax href="https://www.hantools.top/friends" style="color:white">友链</a></li>
+
+        
+        </ul>
+      </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+  </nav>
+
+
+  <!-- 引入jQuery核心js文件 -->
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js"></script>
+  <script>
+    let btstate = false;
+    var bt = $("#barbutton");
+    var bm = $("#barmenu");
+    bt.click(function () {
+      dropdown();
+    })
+    function dropdown() {
+      console.log(btstate);
+      //下拉
+      if (btstate == false) {
+        bt.removeClass("collapsed");
+        bt.attr("aria-expanded", "true");
+        bm.attr("aria-expanded", "true")
+        bm.fadeIn(700);
+        btstate = true;
+      }
+      else {
+        bt.addClass("collapsed");
+        bt.attr("aria-expanded", "false");
+        bm.removeClass("in");
+        bm.hide();
+        bm.attr("aria-expanded", "false");
+        btstate = false;
+      }
+    }
+  </script> </div>
+                <!----------- 移动端导航栏👆 ----------------->
+
+                <!-- ----------------左侧菜单栏html 👇-------------------------------------->
+                
+                <div>
+                    <div id="tab1" class="tab">
+                        <div class="bars">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                        <div class="close"></div>
                     </div>
-                    <div class="close"></div>
-                </div>
-                <div class="col-md-1 col-lg-3"></div>
-                <!-- main标签，pjax渲染时加载以下内容👇 -->
-                <div id="main" class="col-xs-12 col-sm-12 col-md-12 col-lg-7" style="padding:0;">
-                    <div class="readingmode" onclick="readingmode()">阅</div>
-                    <link rel="stylesheet" href="https://www.hantools.top/media/css/font-awesome.css">
+                    <div class="col-lg-3"></div>
+                        <div id="main" class="col-xs-12 col-sm-12 col-md-12 col-lg-7">
+                            <link rel="stylesheet" href="https://www.hantools.top/media/css/font-awesome.css">
 
-<body>
-    <div class="allcontent" id="postdetail">
-        <div class="postshow postpadding" style="padding-bottom: 0;">
-            
-            <div class="postdetailimg">
-                <img src="https://img2.baidu.com/it/u=1488678230,2547635241&amp;fm=253&amp;fmt=auto&amp;app=120&amp;f=JPEG?w=500&amp;h=313" class="postimage" style="cursor:auto">
-            </div>
-            <div class="postinfo-detail">
-                <div class="postdate"><i class="fa fa-calendar"></i>2022-03-18</div>
-                <div class="poststatus postdate"><i class="fa fa-clock-o"></i> 2 min read</div>
-                <div class="posttag">
-                    
-                    <a data-pjax href="https://www.hantools.top/tag/KFE_hE_hw/" class="postlink">
-                        <i class="fa fa-tag"></i> Github Pages系列
-                    </a>
-                    
+<div id="post-container">
+    
+    <div class="postshow postlist">
+        
+        <a data-pjax href="https://www.hantools.top/post/cc-by-nc-sa/" class="apost">
+            <div id="post" style="width:100%">
+                <img src="https://img2.baidu.com/it/u=2256945197,158634018&amp;fm=253&amp;fmt=auto&amp;app=138&amp;f=JPG?w=320&amp;h=112" class="postimage">
+                <div class="posttitlebox">
+                    <div class="posttitle">
+                        啥玩意儿是 CC BY-NC-SA 知识共享协议？
+                    </div>
                 </div>
             </div>
-            
-        <div id="articlecontent">
-            <div id="texttitle" style="text-align: center">
-                <h2 id="ptitle">从0开始搭建一个网站 第一章之——选型篇</h2>
-                <!-- id 将作为查询条件 -->
-                <div id="pl" style="display:none">https://www.hantools.top/post/cong-0-kai-shi-da-jian-yi-ge-wang-zhan-di-yi-zhang-zhi-xuan-xing-pian/</div>
-                <div id="rootaddr" style="display:none">https://www.hantools.top</div>
+        </a>
+        <div class="postinfo">
+            <div class="postdate"><i class="fa fa-calendar"></i>2022-05-03</div>
+            <div class="poststatus postdate"><i class="fa fa-clock-o"></i> 1 min read</div>
+            <div class="posttag">
                 
-                    
-                    <span id="hotnum">
-                        <h4><i class="fa fa-eye" aria-hidden="true" style="color: #FF8C00;"></i>&nbsp;&nbsp;热度</i>: <i
-                                class="hotnum">loading...</i></h4>
-                    </span>
-                    
+                <a data-pjax href="https://www.hantools.top/tag/jishu/" class="postlink">
+                    <i class="fa fa-tag"></i> 技术讨论
+                </a>
+                
+                <a data-pjax href="https://www.hantools.top/tag/xl/" class="postlink">
+                    <i class="fa fa-tag"></i> 闲聊
+                </a>
                 
             </div>
-            <div class="text ">
-                <p>全文共 455 字，预计阅读时间 1分42秒</p>
-<h1 id="开头">开头</h1>
-<p>读了这篇文章您将学到</p>
-<ol>
-<li>各个托管平台之间的区别</li>
-<li>什么是动（静）态网页</li>
-<li>静态网页生成器的选择</li>
-</ol>
-<h1 id="平台的选择">平台的选择</h1>
-<p>现在最受欢迎的有以下几个平台</p>
-<ol>
-<li>GitHub Pages</li>
-<li><s>Coding Pages</s>（已弃用）</li>
-<li>Gitee Pages</li>
-<li>自己动手，丰衣足食（自己搭建）</li>
-</ol>
-<h2 id="如何选择">如何选择？</h2>
-<p>总结：建议选择<strong>GitHub Pages</strong></p>
-<h3 id="github-pages">GitHub Pages</h3>
-<p><strong>非常牛逼的</strong><em>静态<em><strong>网页托管平台</strong><br>
-在</em></em>未满18岁（无法备案）<strong>的前提下很好用，不用备案，自带域名</strong>（可自定义）**，但国内连接速度很慢</p>
-<h4 id="小知识什么事静态动态网页">小知识：什么事静态/动态网页？</h4>
-<h5 id="静态网页">静态网页</h5>
-<p>比如<strong>个人</strong>博客，比如你现在看的这个网站</p>
-<h5 id="动态网页">动态网页</h5>
-<p>比如<strong>哔哩哔哩</strong>，所有用户都可以上传作品</p>
-<h3 id="coding-pages已弃用"><s>Coding Pages</s>（已弃用）</h3>
-<p><s>可大大提高国内的速度，但是收费的，看看得了</s><br>
-别看了，已经关停了，沙*tx（危险发言）</p>
-<h3 id="gitee-pages">Gitee Pages</h3>
-<p>需要备案，需要身份证正反面以及手持身份证照片，国内速度更快</p>
-<h3 id="自己动手丰衣足食自己搭建">自己动手，丰衣足食（自己搭建）</h3>
-<p>需要注意的是，前面几个只支持静态网页，不支持动态网页，自己动手当然是个性化程度最高的方式，但也麻烦，你也不想自己一行一行写代码对吧，<s>我也不想</s></p>
-<h1 id="静态网页生成器">静态网页生成器</h1>
-<p>建议：<strong>Gridea</strong><br>
-目前我见过最好的是Gridea，<s>你没看错，确实不是<strong>WordPress</strong></s><br>
-WordPress需要数据库的支持，所以在这里我们不用他<br>
-Gridea主要是做博客的，有模板可以直接套，还可以直接上传到GitHub<br>
-<s>我保证没有恰饭</s></p>
-<h1 id="结尾">结尾</h1>
-<p>后面会用<strong>GitHub Pages</strong>+<strong>Gridea</strong>从无到有制作一个网站</p>
-<p>下一篇：创建一个库</p>
-
-            </div>
-            <hr style="width: 80%;">
-            
-            <div class="postfooter">
-                <ul class="post-copyright">
-                    <li><strong>文章作者：</strong>HanTools</li>
-            <li><strong>原文链接：</strong>https://www.hantools.top/post/cong-0-kai-shi-da-jian-yi-ge-wang-zhan-di-yi-zhang-zhi-xuan-xing-pian/</li>
-            <li><strong>版权声明：</strong>本博客所有文章除特别声明外，均采用<i class="fa fa-fw fa-creative-commons"></i>BY-NC-SA
-                许可协议。转载请注明出处！</li>
-            </ul>
         </div>
         
-            <div class="shareContainer">
-                <div class="share" style="height:30px;">
-                    <a class="qq" href=""><i><img class="shareicon"
-                                src="https://www.hantools.top/media/images/qqs.png" alt=""></i></a>
-                    <a class="wechat" href=""><i><img class="shareicon"
-                                src="https://www.hantools.top/media/images/wechats.png" alt=""></i></a>
-                    <a class="weibo" href=""><i><img class="shareicon"
-                                src="https://www.hantools.top/media/images/weibos.png" alt=""></i></a>
-                    <a class="qzone" href=""><i><img class="shareicon"
-                                src="https://www.hantools.top/media/images/qzones.png" alt=""></i></a>
-                    <a class="douban" href=""><i><img class="shareicon"
-                                src="https://www.hantools.top/media/images/doubans.png" alt=""></i></a>
-                    <a class="facebook" href=""><i><img class="shareicon"
-                                src="https://www.hantools.top/media/images/facebooks.png" alt=""></i></a>
-                    <a class="twitter" href=""><i><img class="shareicon"
-                                src="https://www.hantools.top/media/images/twitter.png" alt=""></i></a>
-                </div>
-            </div>
-            
-        <div id="otherpost">
-            
-            <a  data-pjax class="prev-post-pc" href="https://www.hantools.top/post/cong-0-kai-shi-da-jian-yi-ge-wang-zhan-di-er-zhang-zhi-chuang-jian-yi-ge-ku/"  style="color: black;">
-                <div id="ppcontainer">
-                    
-                    <img src="https://img2.baidu.com/it/u=1488678230,2547635241&amp;fm=253&amp;fmt=auto&amp;app=120&amp;f=JPEG?w=500&amp;h=313" style="width: 100%;" class="opimg">
-                    
-                    <h4 class="optitle">从0开始搭建一个网站 第二章之——创建一个库</h4>
-                </div>
-            </a>
-            <div class="prev-post">
-                上一篇 <a  data-pjax href="https://www.hantools.top/post/cong-0-kai-shi-da-jian-yi-ge-wang-zhan-di-er-zhang-zhi-chuang-jian-yi-ge-ku/">从0开始搭建一个网站 第二章之——创建一个库</a>
-            </div>
-            
-            
-        </div>
-    </div>
-    </div>
-    </div>
-    <!-- 弹窗 -->
-    <div id="myModal" class="modal">
-        <img class="modal-content" id="img01">
-    </div>
-</body>
-<script>
-    //文章阅读热度
-    var pl = $("#pl").html();
-    var rootaddr = $("#rootaddr").html();
-    pl = pl.replace(rootaddr, "");
-    $("#hotnum").attr('id', pl);
-</script>
-                    <div class="toc-container">
-                        <ul class="markdownIt-TOC">
-<li><a href="#%E5%BC%80%E5%A4%B4">开头</a></li>
-<li><a href="#%E5%B9%B3%E5%8F%B0%E7%9A%84%E9%80%89%E6%8B%A9">平台的选择</a>
-<ul>
-<li><a href="#%E5%A6%82%E4%BD%95%E9%80%89%E6%8B%A9">如何选择？</a>
-<ul>
-<li><a href="#github-pages">GitHub Pages</a>
-<ul>
-<li><a href="#%E5%B0%8F%E7%9F%A5%E8%AF%86%E4%BB%80%E4%B9%88%E4%BA%8B%E9%9D%99%E6%80%81%E5%8A%A8%E6%80%81%E7%BD%91%E9%A1%B5">小知识：什么事静态/动态网页？</a>
-<ul>
-<li><a href="#%E9%9D%99%E6%80%81%E7%BD%91%E9%A1%B5">静态网页</a></li>
-<li><a href="#%E5%8A%A8%E6%80%81%E7%BD%91%E9%A1%B5">动态网页</a></li>
-</ul>
-</li>
-</ul>
-</li>
-<li><a href="#coding-pages%E5%B7%B2%E5%BC%83%E7%94%A8"><s>Coding Pages</s>（已弃用）</a></li>
-<li><a href="#gitee-pages">Gitee Pages</a></li>
-<li><a href="#%E8%87%AA%E5%B7%B1%E5%8A%A8%E6%89%8B%E4%B8%B0%E8%A1%A3%E8%B6%B3%E9%A3%9F%E8%87%AA%E5%B7%B1%E6%90%AD%E5%BB%BA">自己动手，丰衣足食（自己搭建）</a></li>
-</ul>
-</li>
-</ul>
-</li>
-<li><a href="#%E9%9D%99%E6%80%81%E7%BD%91%E9%A1%B5%E7%94%9F%E6%88%90%E5%99%A8">静态网页生成器</a></li>
-<li><a href="#%E7%BB%93%E5%B0%BE">结尾</a></li>
-</ul>
+</div>
 
-                    </div>
-                    <div class="tog">
-                        <div class="toggleContainer">
-                            <div class="toggle">
-                                <i class="fas fa-angle-double-up"></i>
+</div>
+
+                            <div>
+                                <div class="pcpagi">
+    <div class="pagi">
+        <ul>
+            
+            <li><a style="width:100px">&nbsp;</a></li>
+            
+                    <li><a id="page1">1</a></li>
+                    <li><a id="page2" class="active">2</a></li>
+                    <li><a id="page3">3</a></li>
+                    
+            <li><a style="width:100px">&nbsp;</a></li>
+            
+                </ul>
+    </div>
+</div>
+
+<div id="pagination-prev" style="display:none"> 
+</div>
+<div id="pagination-next" style="display:none"> </div>
+
+<div class="pagination-container">
+      
+    
+</div>
+
+<script>
+    var prevstr = document.getElementById("pagination-prev").innerHTML;
+    var nextstr = document.getElementById("pagination-next").innerHTML;
+    var page1 = document.getElementById("page1");
+    var page2 = document.getElementById("page2");
+    var page3 = document.getElementById("page3");
+    page1.innerHTML = '-';
+    page2.innerHTML = '1';
+    page3.innerHTML = '-';
+    if (prevstr.length > 5) {
+        if (prevstr.indexOf("page/") != -1) {
+            var prevnum = parseInt(prevstr.split("page/")[1]);
+            page1.innerHTML = prevnum;
+            page2.innerHTML = prevnum + 1;
+        } else {
+            page1.innerHTML = 1;
+            page2.innerHTML = 2;
+        }
+    }
+    if (nextstr.indexOf("page/") != -1) {
+        var nextnum = parseInt(nextstr.split("page/")[1]);
+        page3.innerHTML = nextnum;
+        page2.innerHTML = nextnum - 1;
+    }
+</script>
+                                <div style="padding-bottom:10%"></div>
                             </div>
                         </div>
-                    </div>
-                    <!---------------------------- 评论系统👇 ------------------------->
-                    <div id="comment" class="comment">
-                        <div class="commentcontainer">
-                            
-                                
-                                    
-        <div id="vcomments">
-        </div>
-        <script>
-            var valine = new Valine();
-            var curpath = window.location.pathname;
-            if (curpath[curpath.length - 1] != '/')
-                curpath += '/'
-            valine.init({
-                el: '#vcomments',
-                appId: 'ovGHXi8ECb5lxgGdb1MQytXp-gzGzoHsz',
-                appKey: 'E9C2giJHaQ7HNYLVdUbn3kue',
-                avatar: 'retro',
-                pageSize: 10,
-                placeholder: '既然来了，何不畅所欲言呢？',
-                recordIP: true,
-                path: curpath //[重点] 记得添加path路径
-            });
-        </script>
-        <script type="text/javascript">
-            var jrsc = '既然来了，何不畅所欲言呢？';
-            jinrishici.load(function (result) {
-                // 自己的处理逻辑
-                jrsc = result.data.content + "\n「" + result.data.origin.title + "」" + result.data.origin
-                    .dynasty + " · " + result.data.origin.author;
-            });
-        </script>
-
-
-                                    <div class="clear"></div>
-                                
-                            
-                        </div>
-                    </div>
-                    <!---------------------------- 评论系统👆 ------------------------->
+                        <div class="col-lg-2"></div>
                 </div>
-                <!-- main标签，pjax渲染时加载以上内容👆 -->
-                <div class="col-md-1 col-lg-2"></div>
-                <div id="bg">
-                </div>
+                <!-- ----------------左侧菜单栏html 👆-------------------------------------->
+                
+                <!------------------ 顶部菜单栏html👇--------->
+                
+                <!------------------ 顶部菜单栏html👆--------->
             </div>
-            <!-- ----------------左侧菜单栏html 👆-------------------------------------->
             
-        </div>
-        <!-- aplayer播放器加载👇 -->
-            
-            <head>
+                        <head>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css">
 </head>
 
@@ -1455,36 +1244,29 @@ Gridea主要是做博客的，有模板可以直接套，还可以直接上传�
     }
 </script>
             
-        <!-- aplayer播放器加载👆 -->
-    </div>
-    <!-- 背景图加载方式👇 -->
-    <div id="bgchoice" style="display: none">default
+        </div>
+        <div id="bg">
+        </div>
+        <!------- 背景图加载方式👇----- -->
+        <div id="bgchoice" style="display: none">default
+                    </div>
+                    
+                    <div id="bgurl" style="display:none">/media/images/custom-bgimage.png</div>
+                       
+        </div>
+        <!------- 背景图加载方式👆 --------------->
+</div>
+</div>
+
+        <div id="landlord">
+            <div class="message" style="opacity:0"></div>
+            <canvas id="live2d" width="240" height="250" class="live2d"></canvas>
+        </div>
+        <div id="domainname" style="display:none">https://www.hantools.top
                 </div>
-                
-                <div id="bgurl" style="display:none">/media/images/custom-bgimage.png</div>
-                
-    <!-- 背景图加载方式👆 -->
 </body>
-
-<script>
-    //初始化
-    //更换twikoo头像
-    setTimeout(replaceAvatar,1000);
-    setTimeout(replaceAvatar,2000);
-    setTimeout(replaceAvatar,8000);
-    // --------为每张图片添加懒加载（lazyload）标签-->懒加载功能 👇------------
-    lazyload();
-    //为文章内所有代码块添加代码复制功能 👇
-    codeinit();
-    // ------代码高亮显示功能-------------
-    hljs.initHighlightingOnLoad();
-    if (shareChoice)
-        shareInit();
-    if (donateChoice)
-        donateInit();
-</script>
-
-<!------------------ 加载live2d模型功能（看板娘）👇 ---------------->
+</html>
+<!-------------------- live2d功能👇 --------------------------->
 
 <script type="text/javascript">
     var message_Path = '/live2d/'
@@ -1496,29 +1278,7 @@ Gridea主要是做博客的，有模板可以直接套，还可以直接上传�
     loadlive2d("live2d", "https://www.hantools.top/media/live2d/assets/tororo.model.json");
 </script>
 
-<!------------------ 加载live2d模型功能（看板娘）👆 ---------------->
-
-
-<!----------------------- 返回顶部按钮功能👇 --------------------->
-<script>
-    $(function () {
-        $('.toggleContainer').click(function () {
-            $('html,body').animate({
-                scrollTop: '0px'
-            }, 800);
-        });
-        $(window).scroll(function () {
-            var st = $(window).scrollTop();
-            if (st > 30) {
-                $(".toggleContainer").fadeIn(400);
-            } else {
-                $(".toggleContainer").fadeOut(100);
-            }
-        });
-    });
-</script>
-<!----------------------- 返回顶部按钮功能👆 --------------------->
-
+<!-------------------- live2d功能👆--------------------------->
 
 <!------------ 加载全局背景图功能👇（开始时没有写好，这功能有点鸡肋/(ㄒoㄒ)/~~） -->
 <script>
@@ -1540,28 +1300,4 @@ Gridea主要是做博客的，有模板可以直接套，还可以直接上传�
 <!------------ 加载全局背景图功能👆（开始时没有写好，这功能有点鸡肋/(ㄒoㄒ)/~~） -->
 
 
-
-
 <script src="https://www.hantools.top/media/js/index.js"></script>
-
-
-<script>
-    //加载后的事件同步（阅读量、移动端评论等
-    window.onload = function () {
-    //代码块高亮渲染
-    document.querySelectorAll('pre code').forEach((block) => {
-            hljs.highlightBlock(block);
-    });
-        getHotnum();
-        var sharepc = $(".share").eq(0).html();
-        $(".share").eq(1).html(sharepc);   //插件只会寻找一个分享标签渲染，所以需要手动添加到移动端
-        aplayerbtnInit();
-        $(".hljs").css({
-            "padding": "20px"
-        })
-    }
-</script>
-
-<!-- <script src="https://www.hantools.top/media/js/av-min.js"></script> -->
-<!-- <script src="https://cdn.jsdelivr.net/npm/leancloud-storage@3.13.0/dist/av-min.js"></script> -->
-<!-- <script src="https://cdn.jsdelivr.net/npm/leancloud-storage@4.6.1/dist/av-live-query-min.js"></script> -->
