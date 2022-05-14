@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://www.hantools.top</id>
     <title>HanTools</title>
-    <updated>2022-05-14T13:19:48.591Z</updated>
+    <updated>2022-05-14T13:23:23.152Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://www.hantools.top"/>
     <link rel="self" href="https://www.hantools.top/atom.xml"/>
@@ -10,6 +10,29 @@
     <logo>https://www.hantools.top/images/avatar.png</logo>
     <icon>https://www.hantools.top/favicon.ico</icon>
     <rights>All rights reserved 2022, HanTools</rights>
+    <entry>
+        <title type="html"><![CDATA[《 禁 止 中 小 学 生 书 写 烂 代 码 》]]></title>
+        <id>https://www.hantools.top/post/lessless-jin-zhi-zhong-xiao-xue-sheng-shu-xie-lan-dai-ma-greatergreater/</id>
+        <link href="https://www.hantools.top/post/lessless-jin-zhi-zhong-xiao-xue-sheng-shu-xie-lan-dai-ma-greatergreater/">
+        </link>
+        <updated>2022-05-14T13:19:50.000Z</updated>
+        <content type="html"><![CDATA[<p>到底什么是<strong>好代码</strong>？<br>
+<strong>代码</strong>？<strong>烂代码</strong>？<strong>屎山代码</strong>？<br>
+最新研究表明<br>
+代码等于<strong>代码</strong>，代码中的代码会因<em>你</em>而<strong>报错</strong>，<strong>致癌物</strong><em>bug</em>超标<strong>114514倍</strong><br>
+<strong>浇花花死 养鱼鱼亡</strong><br>
+烂代码虽不含bug和有害物质，<strong>但也不含对人体有益处的可读性</strong>，加上<strong>重构时间长</strong>，烂代码<strong>已无活性</strong><br>
+现在北京，上海，<s>重庆</s>等一线城市已经颁布条令<br>
+<strong>禁止中小学生书写烂代码</strong><br>
+屎山代码虽含有屎山，<strong>但以烂代码的形式存在</strong>，无注释，不易于读取信息，沉积0xff<br>
+医学专家们称之 <strong>烂代码</strong><br>
+是<strong>胆肾结石、骨质增生</strong>的致病元凶<br>
+<strong>写代码</strong>*要*<strong>觉醒</strong><br>
+<strong>读代码</strong>*要*<strong>革命</strong><br>
+<strong>写代码</strong>，<em>写</em><strong>好代码</strong><br>
+<strong>代码好</strong>，<em>人</em><strong>健康</strong></p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[关于LC谈判我做出的决定、回复与吐槽]]></title>
         <id>https://www.hantools.top/post/guan-yu-lc-tan-pan-wo-zuo-chu-de-jue-ding/</id>
