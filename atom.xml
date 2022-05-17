@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://www.hantools.top</id>
     <title>HanTools</title>
-    <updated>2022-05-14T13:36:30.834Z</updated>
+    <updated>2022-05-17T12:49:00.601Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://www.hantools.top"/>
     <link rel="self" href="https://www.hantools.top/atom.xml"/>
@@ -10,6 +10,26 @@
     <logo>https://www.hantools.top/images/avatar.png</logo>
     <icon>https://www.hantools.top/favicon.ico</icon>
     <rights>All rights reserved 2022, HanTools</rights>
+    <entry>
+        <title type="html"><![CDATA[站内评论规则]]></title>
+        <id>https://www.hantools.top/post/zhan-nei-ping-lun-gui-ze/</id>
+        <link href="https://www.hantools.top/post/zhan-nei-ping-lun-gui-ze/">
+        </link>
+        <updated>2022-05-15T11:31:21.000Z</updated>
+        <content type="html"><![CDATA[<ol>
+<li>请不要发送超过 500 字的评论</li>
+<li>请不要发送灌水内容</li>
+<li>请不要发送敏感内容</li>
+<li>不得违反此规则五次，否则无法评论</li>
+</ol>
+<hr>
+<p><s>暂时只有这么多，想不出来别的了</s></p>
+<hr>
+<p>检测机制：<br>
+每搁10s统一处理一次评论<br>
+所以<strong>不要白费功夫</strong>，不要来灌水，为什么不做点有意义的事呢？</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[《 禁 止 中 小 学 生 书 写 烂 代 码 》]]></title>
         <id>https://www.hantools.top/post/lessless-jin-zhi-zhong-xiao-xue-sheng-shu-xie-lan-dai-ma-greatergreater/</id>

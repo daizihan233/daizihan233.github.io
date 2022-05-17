@@ -1,29 +1,18 @@
 <!DOCTYPE html>
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js"></script>
-    <link rel="stylesheet" href="https://www.hantools.top/media/css/live2d.css">
-    <!-- 最新版本的 Bootstrap 核心 CSS 文件 -->
-    <link rel="stylesheet" href="https://www.hantools.top/media/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://www.hantools.top/styles/main.css">
-    <link rel="stylesheet" href="https://www.hantools.top/media/css/font-awesome.css">
-    <title>HanTools</title>
-    <script>
-        var _hmt = _hmt || [];
-        (function() {
-            var hm = document.createElement("script");
-            hm.src = "https://hm.baidu.com/hm.js?e8af6d64c7a0d9a3d95c01cad3c0c6e1";
-            var s = document.getElementsByTagName("script")[0];
-            s.parentNode.insertBefore(hm, s);
-        })();
-    </script>
-
-</head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<!-- 最新版本的 Bootstrap 核心 CSS 文件 -->
+<link rel="stylesheet" href="https://www.hantools.top/media/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://www.hantools.top/media/css/live2d.css">
+<link rel="stylesheet" href="https://www.hantools.top/styles/main.css">
+<link rel="stylesheet" href="https://www.hantools.top/media/css/font-awesome.css">
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js"></script>
+<title>HanTools</title>
 
 
 <body>
+
     <div id="content">
         <div class="nav-large">
             <div class="row">
@@ -960,7 +949,7 @@ menulist.eq(i).show();
 </script>
 <!----夜间模式👆--></div>
                 <!--------------- pc端菜单栏👆 ---------------->
-               
+
                 <!----------- 移动端导航栏👇 ----------------->
                 <div class="tbar"> <style>
   .navmobile {
@@ -1103,59 +1092,114 @@ menulist.eq(i).show();
 
                 <!-- ----------------左侧菜单栏html 👇-------------------------------------->
                 
-                <div id="tab1" class="tab">
-                    <div class="bars">
-                        <span></span>
-                        <span></span>
-                        <span></span>
+                <div>
+                    <div id="tab1" class="tab">
+                        <div class="bars">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                        <div class="close"></div>
                     </div>
-                    <div class="close"></div>
+                    <div class="col-lg-3"></div>
+                        <div id="main" class="col-xs-12 col-sm-12 col-md-12 col-lg-7">
+                            <link rel="stylesheet" href="https://www.hantools.top/media/css/font-awesome.css">
+
+<div id="post-container">
+    
+    <div class="postshow postlist">
+        
+        <a data-pjax href="https://www.hantools.top/post/lessless-jin-zhi-zhong-xiao-xue-sheng-shu-xie-lan-dai-ma-greatergreater/" class="apost">
+            <div id="post" style="width:100%">
+                <img src="https://img2.baidu.com/it/u=4280661088,2950974070&amp;fm=253&amp;fmt=auto&amp;app=138&amp;f=JPEG?w=404&amp;h=220" class="postimage">
+                <div class="posttitlebox">
+                    <div class="posttitle">
+                        《 禁 止 中 小 学 生 书 写 烂 代 码 》
+                    </div>
                 </div>
-                <div class="col-md-1 col-lg-3"></div>
-                    <div id="main" class="col-xs-12 col-sm-12 col-md-12 col-lg-7">
-                        <div class="mobilebar">
-                            <img src="" alt="" class="plbg">
+            </div>
+        </a>
+        <div class="postinfo">
+            <div class="postdate"><i class="fa fa-calendar"></i>2022-05-14</div>
+            <div class="poststatus postdate"><i class="fa fa-clock-o"></i> 1 min read</div>
+            <div class="posttag">
+                
+                <a data-pjax href="https://www.hantools.top/tag/Kg1VORSzz/" class="postlink">
+                    <i class="fa fa-tag"></i> 整活
+                </a>
+                
+                <a data-pjax href="https://www.hantools.top/tag/xl/" class="postlink">
+                    <i class="fa fa-tag"></i> 闲聊
+                </a>
+                
+            </div>
+        </div>
+        
+</div>
+
+</div>
+
+                            <div>
+                                <div class="pcpagi">
+    <div class="pagi">
+        <ul>
+            
+            <li><a style="width:100px">&nbsp;</a></li>
+            
+                    <li><a id="page1">1</a></li>
+                    <li><a id="page2" class="active">2</a></li>
+                    <li><a id="page3">3</a></li>
+                    
+            <li><a style="width:100px">&nbsp;</a></li>
+            
+                </ul>
+    </div>
+</div>
+
+<div id="pagination-prev" style="display:none"> 
+</div>
+<div id="pagination-next" style="display:none"> </div>
+
+<div class="pagination-container">
+      
+    
+</div>
+
 <script>
-    var bgchoice = "default";
-    if(bgchoice=='default')
-        var plbgurl = "/media/images/custom-mobilebg.jpg"
-    else  
-        var plbgurl = ""
-    $(".plbg").attr("src",plbgurl);
-    $(".plbg").fadeIn(200);
+    var prevstr = document.getElementById("pagination-prev").innerHTML;
+    var nextstr = document.getElementById("pagination-next").innerHTML;
+    var page1 = document.getElementById("page1");
+    var page2 = document.getElementById("page2");
+    var page3 = document.getElementById("page3");
+    page1.innerHTML = '-';
+    page2.innerHTML = '1';
+    page3.innerHTML = '-';
+    if (prevstr.length > 5) {
+        if (prevstr.indexOf("page/") != -1) {
+            var prevnum = parseInt(prevstr.split("page/")[1]);
+            page1.innerHTML = prevnum;
+            page2.innerHTML = prevnum + 1;
+        } else {
+            page1.innerHTML = 1;
+            page2.innerHTML = 2;
+        }
+    }
+    if (nextstr.indexOf("page/") != -1) {
+        var nextnum = parseInt(nextstr.split("page/")[1]);
+        page3.innerHTML = nextnum;
+        page2.innerHTML = nextnum - 1;
+    }
 </script>
+                                <div style="padding-bottom:10%"></div>
+                            </div>
                         </div>
-                        <script>
-                            $(".tag").each(function () {
-                                var rgb = '#' + Math.floor((Math.random()) * 0xffffff).toString(16);;
-                                $(this).css('color', rgb);
-                            });
-                        </script>
-                        <div class="tagsbackgroundleft"></div>
-                        
-                            <img class="tagsimg" src="/media/images/custom-tagimage.png" alt="">
-                            
-                        <div class="tags-container">
-                        
-                            <a data-pjax class="tag" href="https://www.hantools.top/tag/gg/"># 公告</a>
-                            
-                            <a data-pjax class="tag" href="https://www.hantools.top/tag/Kg1VORSzz/"># 整活</a>
-                            
-                            <a data-pjax class="tag" href="https://www.hantools.top/tag/xl/"># 闲聊</a>
-                            
-                            <a data-pjax class="tag" href="https://www.hantools.top/tag/jishu/"># 技术讨论</a>
-                            
-                            <a data-pjax class="tag" href="https://www.hantools.top/tag/KFE_hE_hw/"># Github Pages系列</a>
-                            
-                        </div>
-                    </div>
-                    <div class="col-lg-2"></div>
-                    <!------------------左侧菜单栏html 👆-------------------------------------->
-                    
-                    <!------------------ 顶部菜单栏html👇--------->
-                    
-                <!--------------- ---顶部菜单栏html👆--------->
-                <div class="col-xs-6 col-sm-3"></div>
+                        <div class="col-lg-2"></div>
+                </div>
+                <!-- ----------------左侧菜单栏html 👆-------------------------------------->
+                
+                <!------------------ 顶部菜单栏html👇--------->
+                
+                <!------------------ 顶部菜单栏html👆--------->
             </div>
             
                         <head>
@@ -1220,18 +1264,21 @@ menulist.eq(i).show();
         }
     }
 </script>
-                        
-        </div></div>
+            
+        </div>
         <div id="bg">
         </div>
-        <!-- 背景图加载方式👇 -->
+        <!------- 背景图加载方式👇----- -->
         <div id="bgchoice" style="display: none">default
                     </div>
                     
                     <div id="bgurl" style="display:none">/media/images/custom-bgimage.png</div>
                        
         </div>
-        <!-- 背景图加载方式👆 -->
+        <!------- 背景图加载方式👆 --------------->
+</div>
+</div>
+
         <div id="landlord">
             <div class="message" style="opacity:0"></div>
             <canvas id="live2d" width="240" height="250" class="live2d"></canvas>
@@ -1239,17 +1286,7 @@ menulist.eq(i).show();
         <div id="domainname" style="display:none">https://www.hantools.top
                 </div>
 </body>
-
 </html>
-<!-- 标签框随机色彩功能👇 -->
-<script>
-    $(".tag").each(function () {
-        var rgb = '#' + Math.floor((Math.random()) * 0xffffff).toString(16);;
-        $(this).css('color', rgb);
-    });
-</script>
-<!-- 标签框随机色彩功能👆 -->
-
 <!-------------------- live2d功能👇 --------------------------->
 
 <script type="text/javascript">
@@ -1262,7 +1299,7 @@ menulist.eq(i).show();
     loadlive2d("live2d", "https://www.hantools.top/media/live2d/assets/tororo.model.json");
 </script>
 
-<!-------------------- live2d功能👆 --------------------------->
+<!-------------------- live2d功能👆--------------------------->
 
 <!------------ 加载全局背景图功能👇（开始时没有写好，这功能有点鸡肋/(ㄒoㄒ)/~~） -->
 <script>
@@ -1282,5 +1319,6 @@ menulist.eq(i).show();
     }
 </script>
 <!------------ 加载全局背景图功能👆（开始时没有写好，这功能有点鸡肋/(ㄒoㄒ)/~~） -->
+
 
 <script src="https://www.hantools.top/media/js/index.js"></script>
